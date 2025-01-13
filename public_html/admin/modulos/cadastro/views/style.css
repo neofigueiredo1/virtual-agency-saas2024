@@ -1,0 +1,86 @@
+
+
+
+
+/*
+.alert a{ color: inherit; }
+.email_info{ font-weight: normal; font-size: 87%; margin-left: 10px; color: red; }
+.error{ border-color: #C5605E !important; color: #C5605E; }
+*/
+
+/*
+.table-login{ width: 100%; list-style: none; }
+.table-login .side{ float: left; width: 50%; padding-right: 5%; }
+*/
+
+/*
+.table-login .side .form_login{ }
+.table-login .side .form_login label{ margin-top: 10px; }
+.table-login .side .form_login input{ }
+.table-login .side .form_login input[type="button"]{ margin-top: 20px; float: right; }
+*/
+
+#alert-bts,
+.alert-bts{ max-width:600px; margin:0px auto 50px auto; text-align: center; line-height: 150%; }
+.a-login .checkbox{ vertical-align: middle; line-height: 100%; }
+.a-login .checkbox input{ margin-top:2px; }
+.a-login .btn{ margin:5px 0px; }
+.a-login .col-md-6{ padding:0px 20px; }
+.a-login .col-md-6:first-child{ border-right:2px solid #ccc; }
+.a-login .forms_container{ max-width:410px; margin:auto; }
+.a-login p.subtitulo-t4{ margin:26px 0px; line-height: 150%; }
+
+.a-login .alert{  display: none; margin: 15px 0px !important; }
+.a-login h2{ margin-bottom:50px !important; }
+.a-login .text-primary{ color: #31708f; float: left; margin-top: 15px; }
+.a-login .show-form{ margin-top: 10px; color: #31708f; float: left; }
+.a-login .form-esqueceu,
+.a-login .form-confirmar{ display: none; background: #eeeeee; padding:15px; border:0px; margin-top: 20px; border-radius:20px; }
+.a-login .form-esqueceu .btn-cancel,
+.a-login .form-confirmar .btn-cancel{ margin-right: 10px; }
+
+/*
+
+*/
+
+.newsletter_help::before{ content:""; display: inline-block; height: 100%; vertical-align:middle; }
+.newsletter_help{ 
+    width: 275px;
+    border-radius: 0px;
+    margin: 5px;
+    padding: 5px 15px;
+
+    display:none; 
+	position:absolute;
+	height:60px;
+	font-size:15px;
+	z-index: 9;  
+}
+
+.cmd_form_newsletter{ position:relative; }
+.form_newsletter{ position:relative; }
+.form_newsletter input[type="text"]{ font-size:16px; font-family: 'montserratultra_light', Arial, sans-serif; width:100%; height: 56px; background-color: #fff; color:#000; border:0px; padding: 0px 25px; border-radius:0px; margin:6px 0px; }
+.form_newsletter button,
+.form_newsletter input[type="button"],
+.form_newsletter input[type="submit"]{ width:auto; font-family: 'montserratsemi_bold', Arial, sans-serif; display: inline-block; font-size: 18px; color: #ffffff; text-transform: uppercase; margin:6px 0px; background-color: #757575; border:0px; border-radius: 0px; padding: 17px 28px; }
+
+.a-conteudo .newsletter_help{ height:90px; margin:0px; max-width:68%; }
+.a-conteudo .a_form_newsletter{ width:100%; padding:20px 20px 100px 20px; }
+.a-conteudo .a_form_newsletter input[type="text"]{ margin:0px 2% 0px 0px; font-size:20px; padding:0px 39px; width:68%; border:2px solid #111; height:90px; float: left; }
+.a-conteudo .a_form_newsletter input[type="button"],
+.a-conteudo .a_form_newsletter button{ float: left; width:30%; margin:0px; padding:0px 40px; height:90px; background-color:#ffd400; border:0px transparent; color: #111; font-family:'montserratsemi_bold',sans-serif; font-size:23px; }
+.a-conteudo .a_form_newsletter p{ text-align:center; margin:40px 0px; padding:0px; font-size:20px; }
+
+.meu_cadastro_form{ width:100%; margin-top: 50px; }
+.meu_cadastro_form label{ display: block; font-family:'montserratsemi_bold',sans-serif; font-size:18px; font-weight: normal; letter-spacing: 1px; }
+.meu_cadastro_form label small{ color:#777777; letter-spacing:initial;}
+.meu_cadastro_form .btn-100{ max-width:770px; margin:50px auto; display: block; }
+.meu_cadastro_form #biografia{ height: 141px; }
+.meu_cadastro_form .imagem-perfil{ height:192px;  }
+.meu_cadastro_form .imagem-perfil h5{ display: inline-block; vertical-align: middle; }
+.meu_cadastro_form .imagem-perfil .img_perfil{ width:160px; height:160px; border-radius:80px; overflow: hidden; vertical-align: middle; display:inline-block; margin-right:30px; }
+.meu_cadastro_form .imagem-perfil .img_perfil img{ width:100%; height:auto; }
+.meu_cadastro_form .url-sample{ background-color:#eeeeee; font-family:'montserratsemi_bold',sans-serif; height:46px; font-size:13px; text-transform: uppercase; color: #000;padding-top: 9px; letter-spacing:1px; }
+
+#url_user_aviso{ position: absolute;
+    display: none; top:-30px; }

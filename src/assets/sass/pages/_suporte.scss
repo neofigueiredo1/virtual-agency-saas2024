@@ -1,0 +1,47 @@
+.s_suporte{
+	.suporte{
+		min-height: 590px;
+		.formulario{
+			margin: 0px auto;
+			max-width: 500px;
+			width: 100%;
+
+			input{
+				font-weight: 500;
+				color: $cinza-2;
+			}
+			textarea{
+				font-weight: 500;
+				color: $cinza-2;
+			}
+
+			.botoes_form{
+				color: $cinza-2;
+				font-weight: 500;
+				border: 1px solid lightgray;
+				&:active, &:hover, &:focus {
+					color: $branco;
+					font-weight: 500;
+					background-color: $azul-1;
+					border: none;
+				}
+			}
+		}
+	}
+}
+
+@media(max-width: $largura-celular-paisagem){
+	.s_suporte{
+		h2{
+			font-size: 28px;
+		}
+	}
+}
+
+@media(max-width: $largura-celular){
+	.s_suporte{
+		h2{
+			font-size: 25px;
+		}
+	}
+}

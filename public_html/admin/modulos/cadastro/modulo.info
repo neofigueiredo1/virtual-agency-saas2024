@@ -1,0 +1,32 @@
+{
+	"codigo":"10003",
+	"nome":"Cadastro",
+	"versao":"1.0",
+	"pasta":"cadastro",
+	"icone":"fa-users",
+	"descricao":"Faz o cadastro dos usuários do site",
+	"menu":[
+		{
+			"link":"Cadastros",
+			"url":"/admin/?mod=cadastro&amp;pag=cadastro",
+			"permissao":""
+		},
+		{
+			"link":"Novo Cadastro",
+			"url":"/admin/?mod=cadastro&amp;pag=cadastro&amp;act=add",
+			"permissao":""
+		},
+    	{
+    		"link":"Áreas de interesse",
+    		"url":"/admin/?mod=cadastro&amp;pag=area-interesse&amp;act=list",
+    		"permissao":""
+    	}
+	],
+	"permissao":[
+			{
+				"codigo":"1",
+				"nome":"Acesso ao m&oacute;dulo",
+				"descricao":"D&aacute; acesso simples de consulta ao dados do m&oacute;dulo"
+			}
+	]
+}

@@ -1,0 +1,47 @@
+{
+    "codigo":"10001",
+    "nome":"Conte\u00fado",
+    "versao":"1.0",
+    "pasta":"conteudo",
+    "icone":"fa-file-o",
+    "descricao":"Faz o gerenciamento de todas as p\u00e1ginas de conte\u00fado do site.<br> Op\u00e7oes para cria\u00e7\u00e3o de menus personalizados e p\u00e1ginas filho.",
+    "menu": [
+        {
+            "link":"P\u00e1ginas",
+            "url":"/admin/?mod=conteudo&amp;pag=pagina",
+            "permissao":""
+        },
+        {
+            "link":"Menus",
+            "url":"/admin/?mod=conteudo&amp;pag=menu",
+            "permissao":"4"
+        }
+    ],
+    "permissao": [
+        {
+            "codigo":"1",
+            "descricao":"Acessa o módulo",
+            "nome":"Acesso"
+        },
+        {
+            "codigo":"2",
+            "descricao":"Controle total do módulo",
+            "nome":"Geral"
+        },
+        {
+            "codigo":"3",
+            "descricao":"Insere, Edita e Exclui as páginas do site",
+            "nome":"Páginas de contéudo"
+        },
+        {
+            "codigo":"4",
+            "descricao":"Insere, Edita e Exclui os menus do site",
+            "nome":"Menus"
+        },
+        {
+            "codigo":"5",
+            "descricao":"Gerenciar o filemanager do Editor",
+            "nome":"CKEditor"
+        }
+    ]
+}

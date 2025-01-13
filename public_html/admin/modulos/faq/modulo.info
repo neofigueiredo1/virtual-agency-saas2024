@@ -1,0 +1,21 @@
+{
+	"codigo":"10034",
+	"nome":"FAQ",
+	"versao":"1.0",
+	"pasta":"faq",
+	"icone":"fa-question-circle",
+	"descricao":"Faz o gerenciamento do FAQ.",
+	"menu":"/admin/?mod=faq&pag=faq",
+	"permissao":[
+		{
+			"codigo": "1",
+			"descricao": "Acesso ao módulo",
+			"nome": "Acesso"
+		},
+		{
+			"codigo": "2",
+			"descricao": "Controle total do módulo",
+			"nome": "Geral"
+		}
+	]
+}

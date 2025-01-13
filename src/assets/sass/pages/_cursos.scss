@@ -1,0 +1,144 @@
+.s_cursos{
+	.curso_box{
+		
+		max-width: 432px;
+		width: 100%;
+		margin:auto;
+		
+		.curso_imagem{
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			/*max-width: 432px;*/
+			width: 100%;
+			/*min-height: 298px;*/
+			// min-height: 240px;
+			height: 1px;
+			padding-bottom: 50%;
+			border-radius: 36px 36px 0px 0px;
+		}
+
+		.curso_descricao{
+			background-color: $branco;
+			max-width: 432px;
+			width: 100%;
+			border-radius: 0px 0px 36px 36px;
+			padding: 40px;
+			border: 1px solid lightgray;
+			border-top: none;
+
+			p{
+				margin: 0px;
+			}
+
+			.preco{
+				margin-top: 20px;
+			}
+		}
+	}
+
+	&.s_blog_lista{
+		
+		padding:0px;
+
+		.curso_box{
+			max-width: 33%;
+		    padding: 10px;
+		}
+	}
+
+	.paginacao{
+		ul{
+			li{
+				a{
+					border: none;
+					color: $cinza;
+					font-weight: 500;
+					background-color: transparent;
+				}
+			}
+		}
+	}
+}
+
+@media(max-width: $largura-notebook){
+	/*Sessao Curso*/
+	.s_curso{
+		.curso_box{
+			max-width: 380px;
+			// .curso_imagem{
+			// 	min-height: 250px;
+			// }
+
+			.curso_descricao{
+				padding: 30px;
+				.preco{
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+}
+
+@media(max-width: $largura-desktop){
+	/*Sessao Cursos*/
+	.s_cursos{
+		.curso_box{
+			max-width: 366px;
+			// .curso_imagem{
+			// 	min-height: 241px;
+			// }
+
+			.curso_descricao{
+				padding: 20px;
+				h5{
+					font-size: 20px;
+				}
+				.preco{
+					margin-top: 15px;
+					.estrelas{
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media(max-width: $largura-tablet){
+	/*Sessao Cursos*/
+	.s_cursos{
+		.curso_box{
+			max-width: 371px;
+			// .curso_imagem{
+			// 	min-height: 212px;
+			// }
+
+			.curso_descricao{
+				padding: 16px;
+				.preco{
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+}
+
+@media(max-width: $largura-celular-paisagem){
+	/*Sessao Cursos*/
+	.s_cursos{
+		.curso_box{
+			max-width: 300px;
+			// .curso_imagem{
+			// 	min-height: 212px;
+			// }
+
+			.curso_descricao{
+				padding: 16px;
+				.preco{
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+}

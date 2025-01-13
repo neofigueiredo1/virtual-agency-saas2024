@@ -1,0 +1,30 @@
+// Global
+@import "global/padroes";
+@import "global/animate";
+@import "global/custom-bootstrap";
+
+// Fontes
+@import "fonts/fonts";
+
+// Pages
+@import "pages/header";
+@import "pages/footer";
+@import "pages/index";
+@import "pages/interna";
+@import "pages/conexo-institucional";
+@import "pages/solucoes";
+@import "pages/cadastro";
+@import "pages/criar-conta";
+@import "pages/login";
+@import "pages/produtor";
+@import "pages/cursos";
+@import "pages/cursos-detalhes";
+@import "pages/suporte";
+@import "pages/area-do-aluno";
+@import "pages/area-do-aluno-perfil";
+@import "pages/area-do-produtor";
+@import "pages/detalhe-blog";
+@import "pages/detalhe-artigo-cientifico";
+@import "pages/blog";
+@import "pages/checkout";
+@import "pages/cronograma";

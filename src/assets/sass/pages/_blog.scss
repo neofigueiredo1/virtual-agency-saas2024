@@ -1,0 +1,159 @@
+
+
+.imagem_destaque{
+	height: 1px;
+	padding-bottom: 35%;
+	width:100%;
+	background-position: center;
+	background-size: cover; 
+	margin:0px 50px 0px 0px;
+}
+
+.s_blog{
+
+	b{
+		font-weight: 500;
+	}
+	.blog_box{
+		
+		max-width: 432px;
+		width: 100%;
+		margin:auto;
+		
+		.blog_imagem{
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			width: 100%;
+			min-height: 298px;
+			border-radius: 36px 36px 0px 0px;
+		}
+
+		.blog_descricao{
+			background-color: $branco;
+			max-width: 432px;
+			width: 100%;
+			border-radius: 0px 0px 40px 40px;
+			padding: 37px;
+		    padding-bottom: 28px;
+			border: 1px solid lightgray;
+			border-top: none;
+
+			p{
+				margin: 0px;
+			}
+
+			.preco{
+				margin-top: 20px;
+			}
+		}
+	}
+
+	&.s_blog_lista{
+		
+		padding:0px;
+
+		.blog_box{
+			max-width: 33%;
+		    padding: 10px;
+		}
+	}
+
+	.paginacao{
+		ul{
+			li{
+				a{
+					border: none;
+					color: $cinza;
+					font-weight: 500;
+					background-color: transparent;
+				}
+			}
+		}
+	}
+}
+
+@media(max-width: $largura-notebook){
+	/*Sessao blog*/
+	.s_blog{
+		.blog_box{
+			max-width: 380px;
+			.blog_imagem{
+				min-height: 250px;
+			}
+
+			.blog_descricao{
+				padding: 30px;
+				.preco{
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+}
+
+@media(max-width: $largura-desktop){
+	/*Sessao  blog*/
+	.s_blog{
+		.blog_box{
+			max-width: 366px;
+			.blog_imagem{
+				min-height: 241px;
+			}
+
+			.blog_descricao{
+				padding: 20px;
+				h5{
+					font-size: 20px;
+				}
+				.preco{
+					margin-top: 15px;
+					.estrelas{
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media(max-width: $largura-tablet){
+	/*Sessao  blog*/
+	.s_blog{
+		h2{
+			text-align: center;
+		}
+		.blog_box{
+			max-width: 371px;
+			.aluno_imagem{
+				min-height: 212px;
+			}
+
+			.blog_descricao{
+				padding: 16px;
+				.preco{
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+}
+
+@media(max-width: $largura-celular-paisagem){
+	/*Sessao  blog*/
+	.s_blog{
+		.blog_box{
+			max-width: 300px;
+			.blog_imagem{
+				min-height: 212px;
+			}
+
+			.blog_descricao{
+				padding: 16px;
+				.preco{
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+}

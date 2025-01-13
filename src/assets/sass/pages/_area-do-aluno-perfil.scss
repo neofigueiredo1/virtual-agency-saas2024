@@ -1,0 +1,48 @@
+.s_area_do_aluno_perfil{
+	.box_perfil{
+		max-width: 1128px;
+		width: 100%;
+		padding: 60px 0px;
+		background-color: $branco;
+		border-radius: 36px;
+
+		.formulario{
+			margin-top: 78px;
+
+			input{
+				font-weight: 500;
+			} 
+		}
+	}
+}
+
+@media(max-width:$largura-tablet){
+
+    .s_area_do_aluno_perfil{
+        h2{
+            font-size: 28px;
+        }
+    }
+}
+
+@media(max-width:$largura-celular-paisagem){
+    
+    .s_area_do_aluno_perfil{
+		.box_perfil{
+			padding: 30px 0px;
+
+			.formulario{
+				margin-top: 40px;
+			}
+		}
+	}
+}
+
+@media(max-width:$largura-celular){
+    
+    .s_area_do_aluno_perfil{
+    	h2{
+    		font-size: 25px;
+    	}
+    }
+}

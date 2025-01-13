@@ -1,0 +1,463 @@
+
+
+
+.s_banner_capa_topo{
+	.banner{
+		width:100%;
+		height:1px;
+		padding-bottom: 42%;
+		background-size: cover;
+		background-position: center;
+		a{
+			display: block;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+		}
+	}
+}
+
+
+.box-form-newsletter{
+	flex:1;
+
+	.form-control,
+	.btn{
+		padding:0px 25px;
+		border-radius:100px;
+		height: 60px;
+		border:0px;
+	}
+
+}
+
+
+
+
+/*Sessao vantagens*/
+.s_vantagens{
+	padding: 100px 0px;
+	background-color: #F8F8F8;
+	 h2{
+	 	margin-bottom: 40px;
+	 }
+	.vantagens_itens {
+		
+		background-color: #fff;
+		border-radius: 36px;
+		padding: 50px;
+		width: 30%;
+		margin:10px;
+
+		.icone_vantagem{
+			margin: 0px auto;
+			width:143px;
+			height: 143px;
+			background-size: contain;
+			background-position:center;
+			background-repeat: no-repeat;
+		}
+
+		.vantagens_textos{
+			h3{
+				margin: 40px 0px 24px 0px;
+				min-height: 60px;
+			}
+		}
+		&:active, &:hover, &:focus {
+			background-color: $azul-1;
+			h3{
+				color: $branco;
+				margin: 40px 0px 24px 0px;
+			}
+			a{
+				background-color: $branco;
+				color: $preto;
+			}
+
+			.icone_vantagem{
+				background-image: none !important;
+				background-color:$branco;
+			}
+
+
+		}
+	}
+}
+
+/*Sessao Depoimentos dos professores*/
+.s_depoimentos{
+	// padding: 100px 0px;
+	
+	background-color: $azul;
+
+	.depoimento-item{
+
+		max-width: 432px;
+		width: 100%;
+		margin:auto;
+
+		.d-thumb{
+			background-size: cover;
+			background-position: top center;
+			background-repeat: no-repeat;
+			/*max-width: 432px;*/
+			width: 100%;
+			min-height: 540px;
+			border-radius: 26px;
+		}
+
+		.d-info{
+			background-color: $branco;
+			max-width: 432px;
+			width: 100%;
+			border-radius: 36px;
+			padding: 60px 40px;
+			margin-top: -250px;
+
+			hr{
+				width: 100px;
+				height: 1px;
+				background-color: $azul-1;
+				margin-left: 0px;
+			}
+
+			p{
+				font-weight: 500;
+				margin: 0px;
+			}
+		}
+
+	}
+}
+
+/*Sessao Blog*/
+.s_blog{
+	padding: 100px 0px;
+
+	.noticia-item{
+		
+		max-width: 432px;
+		width: 100%;
+		margin:auto;
+		
+		&:active, &:hover, &:focus {
+			// box-shadow: 21px 19px 17px -11px rgba(0, 0, 0, 0.5);
+			// border-radius: 36px;
+		}
+
+		.blog_imagem{
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			/*max-width: 432px;*/
+			width: 100%;
+			min-height: 287px;
+			border-radius: 36px 36px 0px 0px;
+		}
+
+		.blog_descricao{
+			
+			background-color: $branco;
+			width: 100%;
+			border-radius: 0px 0px 36px 36px;
+			padding: 30px 40px 40px 40px;
+			border: 1px solid lightgray;
+			border-top: none;
+
+			p{
+				margin: 0px;
+			}
+
+			.data_link{
+				margin-top: 30px;
+			}
+			&:active, &:hover, &:focus {
+				// border:none;
+				// border-top: none;
+			}
+		}
+	}
+
+	&.s_blog_lista{
+		
+		padding:0px;
+
+		.noticia-item{
+			max-width: 33%;
+		    padding: 10px;
+		}
+	}
+}
+
+//MEDIA
+
+
+
+
+@media(max-width: 1440px){
+	/*Sessao Depoimentos dos professores*/
+	.s_depoimentos{
+		padding: 90px 0px;
+
+		.depoimento-item{
+			// max-width: 380px;
+			.d-thumb{
+				min-height: 476px;
+			}
+
+			.d-info{
+				padding: 40px 20px;
+				margin-top: -209px;
+			}
+		}
+	}
+
+	/*Sessao Blog*/
+	.s_blog{
+		padding: 90px 0px;
+
+		.noticia-item{
+			// max-width: 380px;
+			.blog_imagem{
+				min-height: 250px;
+			}
+
+			.blog_descricao{
+				padding: 20px;
+				.data_link{
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+}
+
+@media(max-width: $largura-desktop){
+
+	.s_blog{
+		&.s_blog_lista{
+			.noticia-item{
+				width: 350px;
+				max-width:50%;
+			}
+		}
+	}
+
+    
+
+	.s_banner_capa_topo{
+		.banner{
+			padding-bottom: 55%;
+		}
+	}
+
+
+    /*Sessao vantagens*/
+	.s_vantagens{
+		
+		padding: 70px 0px;
+		h2{
+		 	margin-bottom: 30px;
+		}
+
+		.vantagens_itens {
+			
+			padding: 20px;
+
+			.icone_vantagem{
+				width:100px;
+				height: 100px;
+			}
+
+			.vantagens_textos{
+				h3{
+					font-size: 18px;
+					margin: 20px 0px 14px 0px;
+				}
+			}
+		}
+	}
+
+	/*Sessao Depoimentos dos professores*/
+	.s_depoimentos{
+		padding: 70px 0px;
+
+		.depoimento-item{
+			// max-width: 320px;
+			.d-thumb{
+				min-height: 438px;
+			}
+
+			.d-info{
+				padding: 20px 20px;
+				margin-top: -189px;
+			}
+		}
+	}
+
+	/*Sessao Blog*/
+	.s_blog{
+		padding: 70px 0px;
+
+		.noticia-item{
+			// max-width: 320px;
+
+			.blog_imagem{
+				min-height: 211px;
+			}
+
+			.blog_descricao{
+				h4{
+					font-size: 20px;
+				}
+				.data_link{
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+}
+
+@media(max-width: 991px){
+
+	.box-form-newsletter{
+		flex:initial;
+	}
+ 
+    /*Sessao vantagens*/
+	.s_vantagens{
+		padding: 50px 0px;
+		h2{
+			font-size: 28px;
+		 	margin-bottom: 20px;
+		}
+		.vantagens_itens {
+			// padding: 30px;
+			h3{
+				font-size: 18px;
+				margin: 20px 0px 10px 0px;
+			}
+			&:active, &:hover, &:focus {
+				h3{
+					font-size: 20px;
+					margin: 20px 0px 10px 0px;
+				}
+			}
+		}
+	}
+
+	/*Sessao Depoimentos dos professores*/
+	.s_depoimentos{
+		padding: 50px 0px;
+
+		.depoimento-item{
+			// max-width: 320px;
+			.d-thumb{
+				min-height: 400px;
+			}
+
+			.d-info{
+				padding: 15px 15px;
+				margin-top: -178px;
+			}
+		}
+	}
+
+	/*Sessao Blog*/
+	.s_blog{
+		padding: 50px 0px;
+
+		.noticia-item{
+			// max-width: 320px;
+
+			.blog_imagem{
+				min-height: 212px;
+			}
+
+			.blog_descricao{
+				padding: 16px;
+				.data_link{
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+}
+
+@media(max-width: 767px){
+
+	.s_blog{
+		&.s_blog_lista{
+			.noticia-item{
+				width: 400px;
+				max-width:50%;
+			}
+		}
+	}
+    
+    /*Sessao vantagens*/
+	.s_vantagens{
+		.vantagens_itens {
+			width:45%;
+		}
+	}
+
+	/*Sessao Depoimentos dos professores*/
+	.s_depoimentos{
+		padding: 40px 0px;
+
+		.depoimento-item{
+			// max-width: 300px;
+			.d-thumb{
+				min-height: 374px;
+			}
+
+			.d-info{
+				padding: 15px 15px;
+				margin-top: -157px;
+				p{
+					font-size: 14px;
+				}
+			}
+		}
+	}
+
+	/*Sessao Blog*/
+	.s_blog{
+		padding: 40px 0px;
+
+		.noticia-item{
+			// max-width: 300px;
+			.blog_imagem{
+				min-height: 212px;
+			}
+
+			.blog_descricao{
+				padding: 16px;
+				.data_link{
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+}
+
+
+@media(max-width: 580px){
+
+	.s_vantagens{
+		.vantagens_itens {
+			width:100%;
+		}
+	}
+
+	.s_blog{
+		&.s_blog_lista{
+			.noticia-item{
+				width: 100%;
+				max-width:initial;
+			}
+		}
+	}
+}

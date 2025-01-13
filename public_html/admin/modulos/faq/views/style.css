@@ -1,0 +1,17 @@
+
+/* #faq-accordion{ margin: 25px 0px; }
+#faq-accordion .item{}
+#faq-accordion .item-h{ height: 52px; line-height: 100%; padding:0px 30px; cursor:pointer; background:#e7e7e7 url(/site/public/images/arrow-down.png) no-repeat; background-position:96% center; }
+#faq-accordion .item-h p{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+#faq-accordion .item-h::before{content:"";display: inline-block; height:100%; vertical-align: middle; }
+#faq-accordion .item{ padding:35px 40px; margin-left:20px; border-bottom:1px solid #d8d8d8; background:transparent url(/site/public/images/icon-duvidas.png) no-repeat; background-position:0px 40px; position: relative; }
+#faq-accordion .item:last-child{ border-color:transparent; }
+#faq-accordion .item-p,
+#faq-accordion .item-r{ font-size:18px; line-height:130%; }
+#faq-accordion .item-p{ margin-bottom:10px; }
+#faq-accordion .item-r{  } */

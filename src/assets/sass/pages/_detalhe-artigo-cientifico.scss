@@ -1,0 +1,302 @@
+
+
+.s_artigo_cientifico_banner{
+    .imagem_banner{
+    	background-size: cover;
+    	background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    	min-height: 773px;
+    }
+}
+.s_informativo_cientifico{
+	h2{
+		margin-top:100px; 
+	}
+
+    .botao_pdf{
+        font-size: 20px;
+        font-weight: 700;
+        color: $cinza;
+        border: 1px solid $cinza-2;
+        height: 57px;
+    }
+}
+.s_compartilhar_conteudo_cientifico{
+	margin-top:80px; 
+	h5{
+		margin-top:55px; 
+	}
+	.controle_col{
+		margin: 0px 20px;
+		max-width: 126px;
+		width: 100%;
+	}
+}
+
+.s_escreva_um_comentario{
+    .formulario{
+        max-width: 872px;
+        i{
+            font-size: 84px;
+        }
+        textarea{
+            border-radius: 25px;
+        }
+    }
+}
+
+.s_comentarios{
+    .comentario{
+        max-width: 900px;
+        padding: 30px;
+        .icon_perfil{
+            font-size: 98px;
+        }
+        hr{
+            max-width: 100px;
+            width: 100%;
+            height: 1px;
+            background-color: $azul-1;
+            margin: 0px;
+        }
+    }
+
+    .botao_comentarios{
+        color: $azul-1;
+        border: 1px solid $azul-1;
+        font-weight: 500;
+    }
+}
+
+.s_publicacoes_relacionadas{
+    .s_publicacoes_relacionadas_carousel {
+     .owl-nav {
+        width: 80%;
+        padding: 0px 45px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        top: 55%;
+        margin-top: -33px;
+        left: 10%;
+        .owl-prev, .owl-next,.owl-next:hover,.owl-prev:hover{
+            outline: none;
+            span{
+            display: none;
+            }
+            background: transparent;
+        }
+    }
+}
+    .s_publicacoes_relacionadas_carousel.owl-theme .owl-nav .owl-prev{
+        &:before{
+            content: '';
+            background: url('/assets/images/_temp/seta-esquerda.svg') no-repeat center;
+            width: 33px;
+            height: 59px;
+            display: block;
+            background-size: cover;
+            position: relative;
+            left: 0px;
+            transition: all .3s ease;
+        }
+        &:hover{
+            &::before{
+                transform: scale(1.2);
+                transition: all .3s ease;
+            }
+        } 
+    }
+    .s_publicacoes_relacionadas_carousel.owl-theme .owl-nav .owl-next{
+        &:before{
+            content: '';
+            background: url('/assets/images/_temp/seta-direita.svg') no-repeat center;
+            width: 33px;
+            height: 59px;
+            display: block;
+            background-size: cover;
+            position: relative;
+            right: 0px;
+            transition: all .3s ease;
+        }
+        &:hover{
+            &::before{
+                transform: scale(1.2);
+                transition: all .3s ease;
+            }
+        } 
+    }    
+    b{
+        font-weight: 500;
+    }
+    .blog_box{
+        max-width: 432px;
+        width: 100%;
+        margin:auto;
+        
+        .blog_imagem{
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            min-height: 298px;
+            border-radius: 36px 36px 0px 0px;
+        }
+
+        .blog_descricao{
+            background-color: $branco;
+            max-width: 432px;
+            width: 100%;
+            border-radius: 0px 0px 40px 40px;
+            padding: 37px;
+            padding-bottom: 28px;
+            border: 1px solid lightgray;
+            border-top: none;
+
+            p{
+                margin: 0px;
+            }
+
+            .preco{
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media(max-width: $largura-notebook){
+    .s_publicacoes_relacionadas{
+        .blog_box{
+            max-width: 380px;
+            .blog_imagem{
+                min-height: 250px;
+            }
+
+            .blog_descricao{
+                padding: 30px;
+                .preco{
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: $largura-desktop){
+    .s_publicacoes_relacionadas{
+        .blog_box{
+            max-width: 366px;
+            .blog_imagem{
+                min-height: 241px;
+            }
+
+            .blog_descricao{
+                padding: 20px;
+                h5{
+                    font-size: 20px;
+                }
+                .preco{
+                    margin-top: 15px;
+                    .estrelas{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:$largura-tablet){
+    
+    .s_informativo_cientifico{
+    	h2{
+    		font-size: 28px;
+    		text-align: center;
+    	}    	
+    }
+    .s_compartilhar_conteudo_cientifico{
+    	h5{
+    		text-align: center;
+    	}
+    }
+
+    .s_comentarios{
+        h2{
+            font-size: 28px;
+        }
+    }
+
+    .s_publicacoes_relacionadas{
+        h2{
+            text-align: center;
+        }
+        .blog_box{
+            max-width: 371px;
+            .aluno_imagem{
+                min-height: 212px;
+            }
+
+            .blog_descricao{
+                padding: 16px;
+                .preco{
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:$largura-celular-paisagem){
+    
+    .s_informativo_cientifico{
+    	h2{
+    		text-align: center;
+    	}    	
+    }
+
+    .s_escreva_um_comentario{
+        .formulario{
+            i{
+                font-size: 70px;
+            }
+        }
+    }
+
+    .s_comentarios{
+        .comentario{
+            .icon_perfil{
+                font-size: 70px;
+            }
+        }
+    }
+}
+@media(max-width:$largura-celular){
+    
+    .s_informativo_cientifico{
+    	h2{
+    		text-align: center;
+    		font-size: 25px;
+    	}
+    }
+
+    .s_escreva_um_comentario{
+        .formulario{
+            i{
+                font-size: 60px;
+            }
+        }
+    }
+
+    .s_comentarios{
+        h2{
+            font-size: 25px;
+        }
+        .comentario{
+            padding: 0px;
+            .icon_perfil{
+                font-size: 60px;
+            }
+        }
+    }
+}

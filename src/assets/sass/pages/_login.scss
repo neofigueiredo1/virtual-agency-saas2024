@@ -1,0 +1,70 @@
+.s_login{
+	.background_login{
+		max-width: 994px;
+		width: 100%;
+		min-height: 987px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+
+		figure{
+			margin-bottom: 130px;
+		}
+
+		a{
+			margin-top: 50px;
+		}
+	}
+
+	.formulario{
+		margin: 30px 0px;
+	}
+
+	hr{
+		max-width: 217px;
+		width: 100%;
+		background-color: $cinza-3;
+		height: 1px;
+		margin: 0px 20px;
+	}
+
+	i{
+		font-size: 20px;
+	}
+}
+
+@media(max-width: $largura-celular-paisagem){
+	.s_login{
+		h2{
+			font-size: 28px;
+		}
+
+		.background_login{
+			figure{
+				margin-bottom: 80px;
+			}
+
+			a{
+				margin-top: 40px;
+			}
+		}
+
+		.formulario{
+			margin: 20px 0px;
+		}
+	}
+}
+
+@media(max-width: $largura-celular){
+	.s_login{
+		h2{
+			font-size: 25px;
+		}
+
+		.background_login{
+			figure{
+				margin-bottom: 50px;
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+/*Area de ediçao*/
+#imagens-lista{ list-style:none; margin:0px; padding:0px; }
+#imagens-lista	.imagem_item{ list-style:none; margin:5px 0px 5px 0px; padding:0px; border:1px solid #ccc;  }
+#imagens-lista	.imagem{ width:102px; height:50px; vertical-align:middle; text-align:center; background-color:#fff; overflow:hidden; }
+#imagens-lista	.imagem img{ width:auto; height:auto; max-width:90px; max-height:90px; margin:5px;  }
+
+
+#image-preview{max-height: 150px; max-width: 150px; }
+.wrap_img_preview{ background-color: #f0f0f0; margin: 5px; width: 150px; height: 150px; overflow: hidden; }
+.img_file_field{ max-width: 300px; padding: 5px; }
+.a_trash{ margin-top: 28px; }

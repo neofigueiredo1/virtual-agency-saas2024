@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+
+  <script>
+  	
+  	function showMenu(){
+  		$('.menu-lateral').fadeIn('fast',function(){
+  			$('.menu-lateral').addClass('show');
+  		});
+  	}
+
+  	function hideMenu(){
+  		$('.menu-lateral').removeClass('show');
+  		$('.menu-lateral').fadeOut('fast');
+  	}
+
+  	$(document).ready(function(){
+
+  		$('.shadow').on('click',hideMenu);
+
+  	});
+
+  </script>
+
+
+</head>
+<body>
+
+<style>
+
+	html,body{
+		padding:0px;
+		margin: 0px;
+		background-image: url('http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTNwfJ6v2XlB2gZcqTwP3HLlFnR4PYnLfmyWn3dAVPf9pys9v_ENO-6B9AbEp1NUrXzCvoBHHXBDBd1jrXLXus');
+		background-size: cover;
+	}
+	
+	.menu-lateral{ display:none; position: absolute; width:100%; height: 100%; }
+	
+	.menu-lateral .shadow{
+		background-color:rgba(0,0,0,0.3);
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		z-index: 0;
+
+		transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		-webkit-transition: all 0.3s ease;
+	}
+
+	.menu-lateral nav{
+		right: -280px;
+		position: absolute;
+		background-color: red;
+		z-index: 9;
+		width: 280px;
+		height: 100%;
+		overflow-y: auto;
+		overflow-x: hidden;
+
+		transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		-webkit-transition: all 0.3s ease;
+	}
+
+
+	.menu-lateral.show{ display:block; }
+	
+
+	.menu-lateral.show nav{
+		right: 0px;
+
+		transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		-webkit-transition: all 0.3s ease;
+	}
+
+</style>
+
+<div class="menu-lateral" >
+	
+	<div class="shadow" ></div>
+
+	<nav>
+
+		<a href="#"  onclick="javascript:hideMenu();"  >fechar</a>	
+
+		<ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Link</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+	          Dropdown
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Action</a>
+	          <a class="dropdown-item" href="#">Another action</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Something else here</a>
+	        </div>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link disabled">Disabled</a>
+	      </li>
+	    </ul>
+		
+	</nav>
+
+</div>
+
+	
+
+<header>
+
+	<nav><a href="#" onclick="javascript:showMenu();" >exibe</a></nav>
+	
+</header>
+
+
+	
+</body>
+</html>

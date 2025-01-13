@@ -1,0 +1,36 @@
+{
+	"codigo":"10002",
+	"nome":"Banner",
+	"versao":"1.0",
+	"pasta":"banner",
+	"icone":"fa-image",
+	"descricao":"Faz o gerenciamento de todos os banners do site.",
+	"menu":"/admin/?mod=banner&pag=banner&act=tipo-list",
+	"permissao":[
+		{
+			"codigo": "1",
+			"descricao": "Acessa o módulo",
+			"nome": "Acesso"
+		},
+		{
+			"codigo": "2",
+			"descricao": "Controle total do módulo",
+			"nome": "Geral"
+		},
+		{
+			"codigo": "3",
+			"descricao": "Gerenciar banners",
+			"nome": "Banners"
+		},
+		{
+			"codigo": "4",
+			"descricao": "Gerenciar tipos do banner",
+			"nome": "Tipos de banner"
+		},
+		{
+			"codigo": "5",
+			"descricao": "Consulta às estatísticas do banner",
+			"nome": "Estatísticas"
+		}
+	]
+}

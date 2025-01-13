@@ -1,0 +1,1 @@
+{"sinal":0,"tentativas":0,"notificacao":0,"error":0,"error_notifica":0}

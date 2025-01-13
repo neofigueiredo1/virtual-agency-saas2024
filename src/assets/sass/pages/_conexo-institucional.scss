@@ -1,0 +1,112 @@
+// .s_banner_institucional_Topo{
+// 	background-image: url('/assets/images/_temp/banner-institucional.png');
+// 	background-size: cover;
+// 	background-repeat:no-repeat;
+// 	height: 400px;
+// }
+
+// .s_a_empresa{
+// 	p{
+//     	font-family: 'Poppins', sans-serif;
+//     }
+    
+// }
+
+.s_box_missao{
+	
+	.box_missao{
+     	padding: 20px 40px;
+    }
+	article{
+		max-width:340px;
+		width: 100%; 
+		border-radius: 35px; 
+        // margin: 30px 0px;
+	
+		img{
+			height: 70px;
+			margin: 0px auto;
+	        display: flex;
+		}
+		h3{
+			font-size: 20px;	
+			margin: 26px 0px;
+		}
+		p{
+			font-size: 16px;
+			text-align: center;
+		}
+	
+	}	
+}
+
+
+/*Sessao Entre em contato e hospede seu curso conosco*/
+.s_entre_em_contato{
+    background-color: $azul;
+    .formulario{
+        max-width: 666px;
+        width: 100%;
+        margin: 0px auto;
+    }
+}
+
+/*Sessao Politica de privacidade*/
+.s_politica_de_privacidade{
+    .formulario_fale_conosco{
+        max-width: 1360px;
+        width: 100%;
+        padding: 100px 30px 100px 40px;
+        box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.1);
+        border-radius: 36px;
+    }
+} 
+ 
+// @media(max-width:$largura-notebook){
+//     .s_banner_institucional_Topo{
+//         height: 1px; 
+//         padding-bottom: 28%; 
+//     }
+// }
+// @media(max-width:$largura-desktop){
+    
+//     .s_a_empresa{
+
+//     	h2{
+//     	 margin-top: 30px;
+
+//     	}
+//     	img{
+//     		height: 450px;
+//     	}
+    	
+//     }
+
+// }
+// @media(max-width:$largura-celular-paisagem){
+    
+//     .s_a_empresa{
+
+//     	h2{
+//     	 font-size: 26px;
+//     	}
+//     	p{
+//          font-size: 14px;
+//     	}
+//     	img{
+//     	 height: 400px;
+//     	}
+    	
+//     }
+
+// }
+// @media(max-width:$largura-celular-small){
+    
+//     .s_a_empresa{
+//     	img{
+//     		height: 300px;
+//     	}
+    	
+//     }
+
+// }

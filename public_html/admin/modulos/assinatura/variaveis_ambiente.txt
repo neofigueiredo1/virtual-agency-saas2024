@@ -1,0 +1,7 @@
+email para enviar mensagens do ecommerce
+emails para receber duvidas sobre produto
+parecelamento - quantidade de vezes
+	- com juros
+	- sem juros
+desconto para pagamento com boleto
+

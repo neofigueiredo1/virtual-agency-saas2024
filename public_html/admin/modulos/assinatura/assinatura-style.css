@@ -1,0 +1,85 @@
+#imagens-lista{ list-style:none; margin:0px; padding:0px; }
+#imagens-lista	.imagem_item{ list-style:none; margin:5px 0px 5px 0px; padding:0px; border:1px solid #ccc;  }
+#imagens-lista	.imagem{ width:102px; height:auto; vertical-align:middle; text-align:center; background-color:#fff; }
+#imagens-lista	.imagem img{ width:auto; height:auto; max-width:90px; max-height:90px; margin:5px;  }
+
+#image-preview{max-height: 150px; max-width: 150px; }
+.wrap_img_preview{ background-color: #f0f0f0; margin: 5px; width: 150px; height: 150px; overflow: hidden; }
+.img_file_field{ max-width: 300px; padding: 5px; }
+
+
+
+/*Lista de variacao do produto*/
+#variacao_lista,
+#variacao_lista li{ margin:0px; list-style: none; padding: 0px; }
+.produto_variacao{ display:none; }
+#variacao_lista .panel-body{ padding: 0px; }
+#variacao_lista table{ margin: 0px; }
+
+.aguardando,
+.aguardando a{ background-color: #d9edf7; color: #31708f !important; }
+.entregue,
+.entregue a{ background-color: #dff0d8; color: #3c763d !important; }
+.aguardando td,
+.entregue td{ background-color: transparent !important; border-top: 1px solid white; }
+
+
+/*Detalhes do pedido*/
+.detalhes_pedido{ color:#000; line-height: 200%; }
+.detalhes_pedido span.destaca{ color:#777777 !important; }
+
+.avaliacoes{ position: relative; width: 70px; height: 20px; float: left; }
+.avaliacoes ul li i{ font-size: 12px; }
+.avaliacoes .stars-list-o{ width: 70px; list-style: none; float: left; }
+.avaliacoes .avaliacao-mask{ position: absolute; list-style: none; float: left; overflow: hidden; height: 20px; }
+.avaliacoes .avaliacao-mask ul{ display: block; width: 73px; height: 30px; list-style: none; }
+.avaliacoes .avaliacao-mask ul li{ color: #2a6496; }
+.avaliacoes .stars-list-o li,
+.avaliacoes .avaliacao-mask ul li{ cursor: default; float: left; margin-right: 3px; }
+
+/*Dados complementares*/
+
+.dadoc_valores{}
+.dadoc_valor{ 
+	float: left;
+	width:33%;
+}
+
+.radio + .radio,
+.checkbox + .checkbox{
+	margin-top:10px !important;
+}
+
+.codigo_rastreamento{ width:100%; margin-top:10px; display: none; }
+.codigo_rastreamento .form-group{ vertical-align: middle; width: auto;  }
+.codigo_rastreamento .form-control{ max-width:250px; }
+
+/*Cupons*/
+.user_loader{ position: absolute;right:14px; top:14px; display:none; }
+#cupom-lista-selecao{ position: absolute; width:100%; display:none; z-index: 999;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2); background-color: #fff; padding: 10px;
+}
+
+#cupom-lista-selecao .container_selecao{ max-height:250px; overflow:auto; min-height: 50px; }
+#cupom-lista-selecao .usuario_select a{ display:block; background:#eee; font-size: 13px; color: #333333; padding: 5px; margin:2px 0px; }
+#cupom-lista-selecao .usuario_select a:hover{ background:#ccc; color: #ffffff; }
+
+#cupom-lista-selecao .usuario_select a.sair{ background:#006699; color: #fff; }
+#cupom-lista-selecao .usuario_select a.sair:hover{ background:#006699; color: #ffffff; }
+
+.usuarios_selecionados{ background-color:#eeeeee;padding:5px; }
+.usuarios_selecionados .usuario{ display: block; margin:2px 0px; padding:10px 15px; width:100%; background: #ffffff; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; position: relative; }
+.usuarios_selecionados .usuario a{ display: inline-block; right:10px; top:5px; margin:5px; vertical-align: middle; position: absolute; }
+
+.video_info{float: left; margin-top: 15px; display: none; }
+.video_source{ position: relative; }
+.video_image{ position: relative; width:150px; height:150px; margin-right:25px; }
+.video_image img{ width:auto; height: auto; max-width:100%; max-height: 100%; }
+
+
+.table tr.success>td{ background-color: #dff0d8 !important; }
+
+
+.table tr.state-1 td:first-child{ border-left:3px solid #4CAF50; }
+.table tr.state-0 td:first-child{ border-left:3px solid #ff0000; }

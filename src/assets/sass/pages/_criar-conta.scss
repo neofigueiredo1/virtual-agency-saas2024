@@ -1,0 +1,47 @@
+.s_criar_conta{
+	.formulario{
+		padding-top: 35px;
+		max-width: 1024px;
+		width: 100%;
+		margin: 0px auto;
+
+		input{
+			font-weight: 500;
+			color: $cinza-2;
+		}
+
+		textarea{
+			font-weight: 500;
+			color: $cinza-2;
+		}
+
+		hr{
+			width: 217px;
+			background-color: $cinza-3;
+			height: 1px;
+			margin: 0px 20px;
+		}
+		i{
+			font-size: 20px;
+		}
+	}
+}
+
+@media(max-width: $largura-celular-paisagem){
+	.s_criar_conta{
+		h2{
+			font-size: 28px;
+		}
+		.formulario{
+			padding-top: 25px;
+		}
+	}
+}
+
+@media(max-width: $largura-celular){
+	.s_criar_conta{
+		h2{
+			font-size: 25px;
+		}
+	}
+}

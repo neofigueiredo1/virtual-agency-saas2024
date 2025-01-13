@@ -1,0 +1,26 @@
+/*formulário de cadastro de administradores*/
+
+.user_level a{ color: #006699; font-size: 18px; text-decoration: none; }
+
+.user_level label{ padding-right: 5px; }
+
+.modulo>li{
+	font-size: 14px;
+	font-color:#000;
+	font-weight: bold;
+}
+
+.permissao>li{
+	margin-left:25px;
+	font-size: 13px;
+	font-color:#555;
+	font-weight: normal;
+}
+.permissao label{ font-weight: normal; }
+.modulo{ margin-left:20px; }
+.permissao{ margin-bottom: 20px; }
+
+.m_permissoes{ display: none; margin: 10px 0 0 20px; }
+
+/*CHECKBOX*/
+.permissao .radio{ margin: 1px; padding-left: 10px; }

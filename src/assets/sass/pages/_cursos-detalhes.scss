@@ -1,0 +1,188 @@
+.curso-thumb-full{
+	width:100%;
+	height: 1px;
+	padding-bottom: 50%;
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 36px;
+}
+
+.s_cursos_detalhes{
+	// hr{
+	// 	width: 100%;
+	// 	max-width: 896px;
+	// 	height: 1px;
+	// 	background-color: $cinza-3;
+	// }
+
+	/*Conteúdo do curso*/
+	.botao_curso{
+		border: 1px solid $cinza-2;
+		.text{
+			font-weight: 500;
+		}
+		p{
+			font-weight: 700;
+		}
+	}
+
+	/*Equipe acadêmica*/
+	.equipe_academica{
+		box-shadow: 20px 18px 9px -12px rgba(0, 0, 0, 0.2);
+		padding: 30px;
+		border-radius: 25px;
+		i{
+			font-size: 98px;
+		}
+		hr{
+			max-width: 100px;
+			width: 100%;
+			height: 1px;
+			background-color: $azul-1;
+			margin: 0px;
+		}
+	}
+
+	/*Avaliação*/
+	.avaliacao{
+		max-width: 863px;
+		width: 100%;
+		p{
+			font-weight: 500;
+		}
+	}
+
+	/*Comentarios*/
+	.s_comentarios{
+	    .comentario{
+	        max-width: 900px;
+	        padding: 30px;
+	        .icon_perfil{
+	            font-size: 98px;
+	        }
+	        hr{
+	            max-width: 100px;
+	            width: 100%;
+	            height: 1px;
+	            background-color: $azul-1;
+	            margin: 0px;
+	        }
+	    }
+	}
+
+    .botao_comentarios{
+        color: $azul-1;
+        border: 1px solid $azul-1;
+        font-weight: 500;
+    } 
+
+
+	.box_azul{
+		width: 432px;
+		/*height: 364px;*/
+		border-radius: 36px;
+		padding: 40px;
+		background-color: $azul;
+		a{
+			font-weight: 500;
+		}
+	}
+}
+
+.bloco_texto_botao_material{
+	position: relative;
+
+	.titulo_material{
+		word-break: break-all;
+		width: calc(100% - 120px);
+	}
+
+	a{
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+}
+
+@media(max-width:$largura-celular-paisagem){
+
+	.s_cursos_detalhes{
+
+		.box_azul{
+			width: 100%;
+		}
+		
+	}
+
+
+	/*Conteúdo do curso*/
+	.botao_curso{
+		font-size: 14px;
+	}
+
+	/*Equipe acadêmica*/
+	.equipe_academica{
+		padding: 20px;
+		i{
+			font-size: 70px !important;
+		}
+	}
+
+	/*Comentarios*/
+	.s_comentarios{
+        .comentario{
+            .icon_perfil{
+                font-size: 70px;
+            }
+        }
+    }
+}
+
+@media(max-width:$largura-celular){
+	/*Conteúdo do curso*/
+	.botao_curso{
+		font-size: 14px;
+	}
+
+	/*Comentarios*/
+	.s_comentarios{
+        .comentario{
+            padding: 0px;
+            .icon_perfil{
+                font-size: 60px;
+            }
+        }
+    }
+
+
+    .bloco_texto_botao_material{
+		position: relative;
+
+		.titulo_material{
+			word-break: break-all;
+			width: 100%;
+			margin-bottom: 15px;
+		}
+
+		a{
+			position: relative;
+			right: 0;
+			top: 0;
+			padding: 10px 0px !important;
+		}
+	}
+}
+
+@media(max-width:$largura-celular-small){
+	/*Conteúdo do curso*/
+	.botao_curso{
+		font-size: 14px;
+	}
+}
+@media(max-width:$largura-celular-smaller){
+	/*Conteúdo do curso*/
+	.botao_curso{
+		font-size: 14px;
+	}
+}

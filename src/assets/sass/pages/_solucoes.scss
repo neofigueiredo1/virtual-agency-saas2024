@@ -1,0 +1,56 @@
+/*Sessão soluções*/
+.s_solucoes{
+	.solucoes{
+		border-radius: 36px;
+		overflow: hidden;
+		.thumb_img{
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			
+			width: 100%;
+			min-height: 638px;
+			border-radius: 36px;
+
+			box-shadow: 0px 0px 15px 10px rgba(0,0,0,0.1);
+
+		}
+	}
+	// .solucoes_direita{
+	// 	border-radius: 36px;
+	// 	.imagem_aulas_gravadas{
+	// 		background-position: center;
+	// 		background-repeat: no-repeat;
+	// 		background-size: cover;
+	// 		max-width: 664px;
+	// 		width: 100%;
+	// 		min-height: 638px;
+	// 		border-radius: 36px;
+	// 	}
+	// }
+}
+
+@media(max-width: $largura-tablet){
+	/*Sessão soluções*/
+	.s_solucoes{
+		.solucoes{
+			h2{
+				font-size: 27px;
+			}
+			font-size: 14px;
+		}
+	}
+}
+
+@media(max-width: 767px){
+	/*Sessão soluções*/
+	.s_solucoes{
+		.solucoes{
+			.thumb_img{
+				height: 1px;
+				padding-bottom: 91% !important;
+				min-height:initial;
+			}
+		}
+	}
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Directin API</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div style="padding:0px 20px">
+            <h2>Servi&ccedil;o: DirectIn API</h2>
+            <h3>Tipo: REST/JSON</h3>
+        </div>
+        <div style="padding:0px 20px">
+            <h3>Descri&ccedil;&atilde;o:</h3>
+            <p>Web Service do tipo REST/JSON, utilizado trafegar informa&ccedil;&otilde;es na plataforma.</p>
+            <br />
+            <h2>Comandos</h2>
+            <h3>/cadastro<br /><small>Autentica um cadastro.</small></h3>
+            <strong><u>Exemplos de resposta:</u></strong>
+<pre>
+    {
+        response_message: "",
+        response_body: [
+            {
+                id:10,
+                nome_completo:"Fulano"
+            }
+        ],
+        response_status: "00",
+        response_date: "28/12/2018 16:25:30"
+    }
+</pre>
+
+<br><br>
+
+<h2>Mensagens de erro</h2>
+        
+<pre>
+{
+    response_message: "Falha ao processar.",
+    response_body: {
+        "error-message" : "mensagem de erro"
+    },
+    response_status: "01",
+    response_date: "28/12/2016 16:25:30"
+}
+</pre>
+
+<hr>
+
+<div class="panel">
+  <div class="panel-body">
+    <img src="/admin/public/images/logo-directin.jpg" height="22" alt="" /> &nbsp; <small>&Eacute; marca registrada de <a href="http://www.being.com.br/" target="_blank" > Being Serviços Ltda </a></small>
+  </div>
+</div>
+
+            </body>
+        </html>

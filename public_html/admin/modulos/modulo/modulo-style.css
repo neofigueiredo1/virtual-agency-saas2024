@@ -1,0 +1,2 @@
+fieldset{ border:1px solid #ccc; width: auto; background-color: #fff; margin-top: 15px; }
+legend{ cursor:pointer; padding: 0.2em 0.5em; margin:0px 0px 0px 15px; background-color: #000; width: auto; color:#fff; text-align:left; font-size: 12px; }

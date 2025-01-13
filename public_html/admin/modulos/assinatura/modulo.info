@@ -1,0 +1,42 @@
+{
+	"codigo":"10533",
+	"nome":"Assinatura",
+	"versao":"1.0",
+	"pasta":"assinatura",
+	"icone":"fa-shopping-cart",
+	"descricao":"Faz o gerenciamento das assinaturas e planos realizadas na plataforma.",
+	"menu": [
+		{
+			"link" : "Assinaturas",
+			"url" : "/admin/?mod=assinatura&pag=assinatura",
+			"permissao" : ""
+		},
+		{
+			"link" : "Planos",
+			"url" : "/admin/?mod=assinatura&pag=plano",
+			"permissao" : ""
+		},
+		{
+			"link" : "Estatísticas",
+			"url" : "/admin/?mod=assinatura&pag=estatistica",
+			"permissao" : "7"
+		}
+	],
+	"permissao":[
+		{
+			"codigo": "1",
+			"descricao": "Acesso ao módulo",
+			"nome": "Acesso"
+		},
+		{
+			"codigo": "2",
+			"descricao": "Controle total do módulo",
+			"nome": "Geral"
+		},
+		{
+			"codigo": "7",
+			"descricao": "Consultar as estatísticas",
+			"nome": "Estatísticas"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+html, body, button, input{ color: #9A9A9A; }
+html, body {
+	height: 100%;
+	font-size: 1em; line-height: 1.4;
+	background: #ffffff;
+}
+
+input[type=text],input[type=password]{border:1px solid #dfdfdf;height:45px; font-size:14px;color:#555;padding:10px;margin-bottom:9px;outline: 0; width: 100%;}
+input:focus{ border-color: #d1d1d1; }
+.btn{width:auto;height:34px;position:relative;z-index:1;overflow:hidden;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px; }
+button,input[type=button],input[type=reset],input[type=submit]{height:34px;cursor:pointer;color:#fff;font-size:17px;border:0;border-bottom:none;padding:0 15px;background:#2c3e50;webkit-appearance:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;outline:0;}
+button:active,input[type=button]:active,input[type=reset]:active,input[type=submit]:active{background:#34495e;}
+a{color: #afafaf; }
+a:hover{ text-decoration: underline; }
+.login_body{ width: 980px; height: 100%; vertical-align: middle; }
+.login_body>li{ text-align: center; vertical-align: middle; }
+.login_wrapper{ width: 100%; height: 600px; position: relative; }
+.header .logo{ width: 416px; height: 141px; margin: 32px 0 0 5%; }
+.form_login{ width: 318px; top: 25%; position: relative; }
+.form_login .ul_table{ width: 100%; }
+.form_login .ul_table li{ width: auto; }
+.form_login label{ font-size: 15px; float: left; }
+.form_login a{ font-size: 13px; }
+.form_login input[type=text],.form_login input[type=password]{ padding: 14px; font-size: 16px; }
+.form_login .get_tcl_virtual{ margin: -2px 0 0 5px; color: #ffffff; font-size: 14px; padding: 0 5px; border: 1px solid #595d60; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.form_login .show_pass{ font-size: 12px; margin: 0; }
+.form_login .show_pass input[type=checkbox]{ margin: 1px 3px 0 0; float: left; }
+.form_login .btn{ margin-top: 15px;}
+.form_login .help{ float: left; margin: 4px 0 0 10px; }
+.lost_voltar{ color: #c0392b; }
